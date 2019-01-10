@@ -1,0 +1,37 @@
+
+#foto{
+    border:1px solid black;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+
+#labelFoto{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../img/foto.png) no-repeat center;
+    top:0;
+}
+#file{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    opacity: 0;
+}
+.ocultar{
+    display: none;
+}
+h1{
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+}
